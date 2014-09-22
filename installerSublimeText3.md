@@ -1,4 +1,10 @@
-#INTALLER SUBLIME TEXT 3 (ST3)
+#INTALLER SUBLIME TEXT 3
+
+* * *
+
+**Note:** Quand des raccourcis commençant par `CTRL`sont signalés, il convient de remplacer `CTRL`par `CMD`si on traville sur Mac. 
+
+* * *
 
 ##1. Télécharger ST3
 Rendez-vous sur le site de Sublime Text 3 : [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
@@ -28,7 +34,7 @@ Exécuter le fichier .exe récupéré (double-cliquer dessus)
 ##2. Installer des packages (procédure générale)
 
 ###2.1. Voir la liste des packages disponibles
-1. `Ctrl`+`Maj`+`P` pour avoir la liste des commandes disponibles
+1. `CTRL`+`MAJ`+`P` pour avoir la liste des commandes disponibles
 2. Taper *« list »* => choisir `Package Control: List Packages`
 3. On voit apparaître la fenêtre de *Package Control* avec, dedans, la liste des packages installés
 
@@ -38,7 +44,7 @@ On utilise la commande `Package Control: install Package` de ST et on choisit da
 
 Procédure détaillée :
 
-1. `Ctrl`+`Maj`+`P` pour avoir la liste des commandes disponibles 
+1. `CTRL`+`MAJ`+`P` pour avoir la liste des commandes disponibles 
 2. Taper *« instal »* => choisir `Package Control: Install Package`
 3. On voit apparaître la fenêtre de *Package Control* avec, dedans, la liste des packages non encore installés, qu’on peut donc installer
 3. Taper un des mots constituant le nom du package qu’on veut installer => il le propose dans la liste => le choisir, il l’installe
@@ -48,7 +54,7 @@ Procédure détaillée :
 	* Permet d’avoir dans un menu latéral *(side bar)* la liste des dossiers et fichiers cotenus dans le dossier qu’on a ouvert
 	* Permet aussi, quand on choisit un fichier  dans la *side bar*, d’avoir un menu contextuel plus complet avec, notamment, l’option `open in browser`, qui permet d’ouvrir directement le fichier dans un navigateur sans devoir quitter ST. (N.B. On peut chosir le navigateur avec lequel ST va ouvrir le fichier en modifiant les préférences de ST, voir plus loin).
 	* Installation : 
-		1. `Ctrl`+`Maj`+`P`
+		1. `CTRL`+`MAJ`+`P`
 		2. Taper *« instal »* => choisir `Package Control: Install Package`
 		3. Taper *« sidebar »* => choisir `SideBarEnhancements`
 	* Utilisation :
@@ -57,23 +63,23 @@ Procédure détaillée :
 - **Markdown Preview**
 	* Permet d’afficher des fichiers balisés en markdown dans un navigateur (cette extension exporte le fichier markdown ouvert en HTML et l’ouvre directement dans le navigateur)
 	* Installation :
-		1. `Ctrl`+`Maj`+`P`
+		1. `CTRL`+`MAJ`+`P`
 		2. Taper *« instal »* => choisir `Package Control: Install Package`
 		3. Taper *« markdown »* => choisir `Markdown Preview`
 	* Utilisation :
 		1. Vous êtes dans ST avec un fichier .md ouvert
-		2. `Ctrl`+`Maj`+`P`
+		2. `CTRL`+`MAJ`+`P`
 		3. Taper *« markdown »* => choisir `Markdown Preview: Preview in Browser` puis `markdown`dans la 2e liste fournie
 - **All Auto Complete**
 	* Permet de faire de l’auto-complétion
 	* Installation : 
-		1. `Ctrl`+`Maj`+`P`
+		1. `CTRL`+`MAJ`+`P`
 		2. Taper *« instal »* => choisir `Package Control: Install Package`
 		3. Taper *« complete »* => choisir `All Auto Complete`
 - **Emmet**
 	* Permet d’utiliser des raccourcis et des alias, voir [Emmet Sheat Sheet](http://docs.emmet.io/cheat-sheet/))
 	* Installation : 
-		1. `Ctrl`+`Maj`+`P`
+		1. `CTRL`+`MAJ`+`P`
 		2. Taper *« instal »* => choisir `Package Control: Install Package`
 		3. Taper *« emmet »* => choisir `Emmet`
 	* Utilisation :   
@@ -89,11 +95,11 @@ Procédure détaillée :
 			* *Comment ?* On tape le nom de la propriété raccourcie + `TAB`
 			* Voir [Emmet Sheat Sheet](http://docs.emmet.io/cheat-sheet/) pour les possibilités détaillées
 - **Sublime Codeintel**
-	* Permet aaussi de faire de l’auto-complétion
+	* Permet aussi de faire de l’auto-complétion
 - **etc.**
 		  
 ##3. Changer les préférences générales de ST
-1. Récupérer les préférences par déafut de ST pour pouvoir les modifier :
+1. Récupérer les préférences par défaut de ST pour pouvoir les modifier :
 	* Choisir dans le menu `Sublime Text`> `Preferences` > `Settings - Default`
 	* Récupérer les préférences par défaut : tout sélectionner (`CTRL`+A), copier (`CTRL`+C)
 	* On va coller ce contenu dans Settings - User
@@ -101,7 +107,7 @@ Procédure détaillée :
 2. Enregistrer nos préférences dans le fichier des préférences de l’utilisateur :
 	* Choisir dans le menu `Sublime Text`> `Preferences` > `Settings - User`
 	* Initialiser (ou réinitialiser) si nécessaire les préférences de l’utilisateur en y insérant les préférences par défaut : on sélectionne tout (pour écraser) (`CTRL`+A), on colle les préférences par défaut récupérées à l’étape 1 (`CTRL`+V), on sauve (`CTRL`+S)
-	* Opérer dans le fichier ainsi obtenu ls modifications souhaitées, par exemple :
+	* Opérer dans le fichier ainsi obtenu les modifications souhaitées, par exemple :
 		- Changer la police : `CTRL`+F : font => "font_face": "consolas", (ou "courrier new")
 		- Passage à la ligne : `CTRL`+F : wrap => "word_wrap": "true",
 		- Convertir TAB en espaces : `CTRL`+F : translate => "translate_tabs_to_spaces": true
@@ -122,45 +128,45 @@ En détail, cela donne dans ce cas :
 2. Enregistrer nos préférences dans le fichier des préférences de l’utilisateur :
 	* Choisir dans le menu `Sublime Text`> `Package Settings` > `Side Bar`> `Settings - User`
 	* Initialiser (ou réinitialiser) si nécessaire les préférences de l’utilisateur en y insérant les préférences par défaut : on sélectionne tout (pour écraser) (`CTRL`+A), on colle les préférences par défaut récupérées à l’étape 1 (`CTRL`+V), on sauve (`CTRL`+S)
-	* Opérer dans le fichier ainsi obtenu ls modifications souhaitées, par exemple :
+	* Opérer dans le fichier ainsi obtenu les modifications souhaitées, par exemple :
 		- Changer navigateur par défaut : `CTRL`+F : browser => "default_browser": "firefox"
 
 
 ##5. Quelques raccourcis utiles
 
-1. `CTRL`+S (ou `CMD`+S sur Mac)
+1. `CTRL`+S
 	* Enregistre le fichier
 	
-2. `CTRL`+F (ou `CMD`+F sur Mac)
+2. `CTRL`+F
 	* Permet de rechercher une ou plusieurs occurrences d’un mot ou d’une expression
 
-3. `CTRL`+A (ou `CMD`+A sur Mac)
+3. `CTRL`+A
 	* Sélectionne tout
 	
-4. Sélection puis `CTRL`+C (ou `CMD`+C sur Mac)
+4. Sélection puis `CTRL`+C
 	* Copie la sélection
 	
-5. Sélection puis `CTRL`+X (ou `CMD`+X sur Mac)
+5. Sélection puis `CTRL`+X
 	* Coupe la sélection
 	
-6. Curseur positionné à l’endoroit choisi puis `CTRL`+V (ou `CMD`+V sur Mac)
+6. Curseur positionné à l’endoroit choisi puis `CTRL`+V
 	* Colle la sélection précédememnt copiée
 
-7. Sélection puis `CTRL`+D (ou `CMD`+D sur Mac)
+7. Sélection puis `CTRL`+D
 	* Permet de sélectionner toutes les occurrences suivantes d’une sélection
 	* Rend possible l’édition multiple
 
 8. `ALT` + Souris : 
 	* Rend possible la sélection en colonne
 
-9. `CTRL`+`SHIFT`+`W` (ou `CMD`+`SHIFT`+`W` sur Mac)
+9. `CTRL`+`SHIFT`+`W`
 	* Permet d’encadrer une sélection avec une balise HTML
 	
-10. `CTRL`+`MAJ`+`P` (ou `CMD``MAJ`+`P` sur Mac)
+10. `CTRL`+`MAJ`+`P`
 	* Donne la liste des commandes disponibles 
 	* => quand on tape des mots de ce qu’on veut, il complète (logique floue)  
 	et on a la liste de ce qui contient ces mots-là qui apparaît
 	* => `ENTER` pour choisir la première proposition
-	* => flèche pour se balader dans la liste et ÈNTER`quand on est sur celle qu’on veut
+	* => flèche pour se balader dans la liste et `ENTER`quand on est sur celle qu’on veut
 
 
