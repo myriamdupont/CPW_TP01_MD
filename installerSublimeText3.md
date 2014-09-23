@@ -101,9 +101,8 @@ Procédure détaillée :
 	* Installation : 
 		1. Télécharger le zip ici : [skuroda/Sublime-AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
 		2. Suivez les instructions données sur cette même page
-	*Utilisation : 
-        	* `ctrl + alt + n` => entrez un chemin ou un nom de fichier, si les dossiers n'existent pas, ST va les créer
-	*ENJOY
+	* Utilisation : 
+		* `ctrl + alt + n` => entrez un chemin ou un nom de fichier, si les dossiers n'existent pas, ST va les créer
 - **etc.**
 		  
 ##3. Changer les préférences générales de ST
