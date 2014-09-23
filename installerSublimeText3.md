@@ -96,6 +96,14 @@ Procédure détaillée :
 			* Voir [Emmet Sheat Sheet](http://docs.emmet.io/cheat-sheet/) pour les possibilités détaillées
 - **Sublime Codeintel**
 	* Permet aussi de faire de l’auto-complétion
+- ** AdvencedNewFile **
+        * Permet de générer des fichiers/dossiers en entrant un chemin
+        * Installation :
+                1. Télécharger le zip ici : [skuroda/Sublime-AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
+                2. Suivez les instructions données sur cette même page
+        * Utilisation : 
+        	* `ctrl + alt + n` => entrez un chemin ou un nom de fichier, si les dossiers n'existent pas, ST va les créer
+        * ENJOY
 - **etc.**
 		  
 ##3. Changer les préférences générales de ST
