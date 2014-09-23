@@ -96,7 +96,7 @@ Procédure détaillée :
 			* Voir [Emmet Sheat Sheet](http://docs.emmet.io/cheat-sheet/) pour les possibilités détaillées
 - **Sublime Codeintel**
 	* Permet aussi de faire de l’auto-complétion
-- ** AdvencedNewFile **
+- **AdvencedNewFile**
         * Permet de générer des fichiers/dossiers en entrant un chemin
         * Installation :
                 1. Télécharger le zip ici : [skuroda/Sublime-AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
