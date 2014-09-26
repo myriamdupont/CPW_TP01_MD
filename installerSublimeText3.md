@@ -101,7 +101,7 @@ Procédure détaillée :
 	* Installation : 
 		1. `CTRL`+`MAJ`+`P`
 		2. Taper *« instal »* => choisir `Package Control: Install Package`
-		3. Taper *«Advenced»* => choisir `AdvencedNexFiles`
+		3. Taper *«Advenced»* => choisir `AdvencedNewFiles`
 	* Utilisation : 
 		* `ctrl + alt + n` => entrez un chemin ou un nom de fichier, si les dossiers n'existent pas, ST va les créer
 - **etc.**
