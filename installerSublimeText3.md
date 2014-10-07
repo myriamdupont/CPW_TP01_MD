@@ -95,7 +95,15 @@ Procédure détaillée :
 			* *Comment ?* On tape le nom de la propriété raccourcie + `TAB`
 			* Voir [Emmet Sheat Sheet](http://docs.emmet.io/cheat-sheet/) pour les possibilités détaillées
 - **Sublime Codeintel**
-	* Permet aussi de faire de l’auto-complétion
+	*Permet aussi de faire de l’auto-complétion
+- **AdvencedNewFile**
+	* Permet de générer des fichiers/dossiers en entrant un chemin
+	* Installation : 
+		1. `CTRL`+`MAJ`+`P`
+		2. Taper *« instal »* => choisir `Package Control: Install Package`
+		3. Taper *«Advenced»* => choisir `AdvencedNewFiles`
+	* Utilisation : 
+		* `ctrl + alt + n` => entrez un chemin ou un nom de fichier, si les dossiers n'existent pas, ST va les créer
 - **etc.**
 		  
 ##3. Changer les préférences générales de ST
@@ -156,17 +164,23 @@ En détail, cela donne dans ce cas :
 	* Permet de sélectionner toutes les occurrences suivantes d’une sélection
 	* Rend possible l’édition multiple
 
-8. `ALT` + Souris : 
+8. `CTRL` + `SHIFT` + `D`
+    * Duplique la ligne où est le curseur
+
+9. `ALT` + Souris : 
 	* Rend possible la sélection en colonne
 
-9. `CTRL`+`SHIFT`+`W`
+10. `CTRL`+`SHIFT`+`W`
 	* Permet d’encadrer une sélection avec une balise HTML
 	
-10. `CTRL`+`MAJ`+`P`
+11. `CTRL`+`MAJ`+`P`
 	* Donne la liste des commandes disponibles 
 	* => quand on tape des mots de ce qu’on veut, il complète (logique floue)  
 	et on a la liste de ce qui contient ces mots-là qui apparaît
 	* => `ENTER` pour choisir la première proposition
 	* => flèche pour se balader dans la liste et `ENTER`quand on est sur celle qu’on veut
+	
+12. `CTRL` + `SHIFT` + `flèches haut/bas`
+    * Permet de déplacer une ligne vers le haut ou vers le bas
 
 
