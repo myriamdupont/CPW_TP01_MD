@@ -156,7 +156,7 @@ En détail, cela donne dans ce cas :
 	* Permet de sélectionner toutes les occurrences suivantes d’une sélection
 	* Rend possible l’édition multiple
 
-8. `ALT` + Souris : 
+8. Clic molette : 
 	* Rend possible la sélection en colonne
 
 9. `CTRL`+`SHIFT`+`W`
